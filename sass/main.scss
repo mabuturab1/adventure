@@ -1,0 +1,38 @@
+@import "abstract/variables";
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+@import "pages/home";
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+@import "layout/navigation";
+@import "components/button";
+@import "components/featurebox";
+@import "components/composition";
+@import "components/card";
+@import "components/story";
+@import "components/bgvideo";
+@import "components/form";
+@import "components/popup";
+
+/*
+
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
